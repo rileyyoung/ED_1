@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(innerWidth, innerWidth);
   strokeWeight(.5);
-  stroke(86, 225,179);
+  stroke(48,25,52);
   frameRate(1); //x frames/sec
 }
 
@@ -21,7 +21,7 @@ function draw() {
   translate (margin,margin);
   for(var y=0; y < height; y=y+sidelen){
   for(var x=0; x < width; x=x+sidelen){
-  fill(random(15,300),30,700)
+  fill(random(0,250),150,140)
     
     quad(x + space + random(-shift, shift),y + space + random(-shift, shift), x+sidelen - space + random(-shift, shift),y + space + random(-shift, shift), x+sidelen - space + random(-shift, shift),y+sidelen - space + random(-shift, shift), x + space + random(-shift, shift),y+sidelen - space + random(-shift, shift));
   }
