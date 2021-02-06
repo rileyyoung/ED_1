@@ -15,7 +15,7 @@ function draw() {
   var shift = random(0,5);
   var space = random(1,15);
   
-  var numSquares = 10;
+  var numSquares = 3;
   var sidelen = width/numSquares;
   
   translate (margin,margin);
